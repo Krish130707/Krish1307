@@ -66,9 +66,7 @@ int main() {
     printf("Elements of the second array:\n");
     displayArray(arrays.arr2, size);
 
-    // Free dynamically allocated memory
-    free(arrays.arr1);
-    free(arrays.arr2);
+    
 
     return 0;
 }
