@@ -84,21 +84,4 @@ int main() {
     printf("PRODUCT OF MATRIX A AND MATRIX B:\n");
     displayMatrix(product, row1, col2);
 
-    // Free allocated memory
-    for (int i = 0; i < row1; i++) {
-        free(mat1[i]);
-    }
-    free(mat1);
-
-    for (int i = 0; i < row2; i++) {
-        free(mat2[i]);
-    }
-    free(mat2);
-
-    for (int i = 0; i < row1; i++) {
-        free(product[i]);
-    }
-    free(product);
-
-    return 0;
-}
+    
